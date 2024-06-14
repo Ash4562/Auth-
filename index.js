@@ -10,7 +10,7 @@ const app = express()
 
 app.use(express.json())
 app.use(cors({
-    origin: "https://auth-zy9p.onrender.com/",
+    origin: "*",
     credentials: true
 }))
 app.use(cookieParser())
